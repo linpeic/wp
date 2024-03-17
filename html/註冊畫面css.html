@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+<style>
+div {
+  margin-bottom: 20px;
+  margin-left: 230px;
+}
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 570px;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+</style>
+</head>
 <body>
-<body style="background-color:hsla(0, 0%, 84%, 0.4);">
+<body style="background:linear-gradient(to left, rgba(230, 226, 222, 0.5),rgba(188,180, 172, 0.55) );">
 <h2>註冊</h2>
 <form action="/action_page.php">
   <label for="fname">姓名：</label><br>
@@ -10,7 +27,6 @@
  <input type="radio" id="male" name="gender" value="male">男性
  <input type="radio" id="female" name="gender" value="female">女性
 <br>
-         
   <label for="account">帳號：</label><br>
   <input type="text" id="account" name="account">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <label for="password">密碼：</label>
@@ -31,7 +47,6 @@
    <option value="O">O型</option>
    <option value="other">其他血型</option>
   </select> <br><br>
-  
   <label for="favcolor">喜歡的顏色：</label>
   <input type="color" id="favcolor" name="favcolor" value="#fff5e7">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
   <label for="myfile">選擇檔案：</label>
@@ -40,8 +55,14 @@
   <textarea id="selfintroduction" name="selfintroduction" rows="7" cols="75"></textarea><br><br>
   <input type="checkbox" id="subscribe" name="subscribe" value="agreement">
   <label for="subscribe"> 我同意，訂閱!</label><br><br>
+  <div>
   <input type="submit" value="Submit">
+  </div>
+  <div class="gallery">
+   <a target="_blank" href="70128138-B373-4AB6-B461-025107330787.jpg">
+    <img src="70128138-B373-4AB6-B461-025107330787.jpg"  alt="sky" width="600" height="400">
+  </a>
+</div>
 </form>
-<p>感謝您的註冊!</p>
 </body>
 </html>

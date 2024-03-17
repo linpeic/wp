@@ -5,5 +5,5 @@ function isprime(n) {
     return true
 }
 
-console.log('isprime(5)=',isprime(5))
+console.log('isprime(3)=',isprime(3))
 console.log('isprime(8)=',isprime(8))

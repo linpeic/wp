@@ -10,3 +10,4 @@ function daysinyear(n){
 console.log('daysinyear(1991)=',daysinyear(1991))
 console.log('daysinyear(2000)=',daysinyear(2000))
 console.log('daysinyear(2004)=',daysinyear(2004))
+console.log('daysinyear(1990)=',daysinyear(1990))

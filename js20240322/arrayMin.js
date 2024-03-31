@@ -1,19 +1,12 @@
-function arrayMin(a){
-    var i,j,c=[],x,min
-    for(i=0;i<a.length;i++)
+function arrayMin(c){
+    var i,min=c[0]
+    for(i=0;i<c.length;i++)
     {
-        for(j=0;j<a[i].length;j++)
-        {
-           if(a[i]>a[j])
-           {
-             x=a[i]
-             a[i]=a[j]
-             a[j]=x
-             min=a[j]
-           } 
-        }
+      if(c[i]<min){
+        min=c[i]
+      } 
     }
     return min
 }
-var m=arrayMin=[2,5]
-console.log('arrayMin(a,b)='+m)
+var m=[7,5,2,8]
+console.log('min =',arrayMin(m))

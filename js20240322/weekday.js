@@ -7,8 +7,9 @@ var w2i ={
     Saturday:6,
     Sunday:0,  
 }
-function weekday(str){
-    return w2i[str]
+let we=[]
+function weekday(week){
+    return w2i[we]
 }
-let str = Deno.args[0]
-console.log(str,'=', weekday(str))
+let week = Deno.args[0]
+console.log(we,'=', weekday(week))

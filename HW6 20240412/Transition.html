@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{  margin: 0;
+    padding: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 20px;
+  font-size: 15px;
+  margin: 0px 10px 0px 150px;
+  background-color: white;
+  width: 600px;
+  text-align: left;
+}
+#sidebar{
+width: 150px;
+height: 100vh;
+background: rgb(240, 240, 240);
+transition: width 1.5s;
+position: relative;
+}
+
+#sidebar:hover{
+width:120xp;
+}
+p{
+font-size:20px;
+padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="grid-container">
+
+<div id="sidebar">
+   
+  <p style="text-align:center;"><b>清單</b></p><hr>
+  <br><div style="text-align:center;">*我的資訊<a href="https://www.facebook.com/profile.php?id=100052363483649">FB</a></div><br><hr>
+  <br><div style="text-align:center;">*如何聯繫我</div><br><hr>
+</div>
+<div class="grid-item">
+  <p><b>個人網頁</b></p>
+  <div>4</div>
+</div>
+
+</div>
+
+<p></p>
+
+</body>
+</html>

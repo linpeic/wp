@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{  margin: 0;
+    padding: 0;}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu main  main '
+    'menu footer footer ';
+  gap: 5px;
+  background:Gainsboro ;
+}
+.grid-container > div {
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.sidebar{
+width: 80px;
+height: 100vh;
+background:Gainsboro ;
+transition: width 1.5s;
+}
+#sidebar{
+width: 80px;
+height: 100vh;
+background:Gainsboro ;
+transition: width 1.5s;
+}
+</style>
+</head>
+<body>
+<h1 style="text-align:center;padding: 20px;">真政讚開心果園</h1>
+<div class="grid-container">
+<div id="sidebar" onclick="turn()">
+<div class="sidebar">
+ <div class="item2">
+ <p style="text-align:center;font-size:20px;
+padding: 10px;"><b>目錄</b></p><hr>
+<br><div style="text-align:center;font-size:15px;"> <a
+href="https://www.facebook.com/profile.php?id=100052363483649">果乾系列</a></div>
+<br><div style="text-align:center;font-size:15px;"> <a href="https://www.facebook.com/profile.php?id=100052363483649">水果茶系列</a></div><br><hr>
+<p style="text-align:center;font-size:20px;
+padding: 10px;"><b>其他</b></p><hr>
+<br><div style="text-align:center;font-size:15px;"> <a href="https://www.facebook.com/profile.php?id=100052363483649">常見問題</a></div>
+<br><div style="text-align:center;font-size:15px;"> <a href="https://www.facebook.com/profile.php?id=100052363483649">關於我們</a></div><br>
+</div>
+</div>
+</div> 
+  <div class="item3">
+  <p style="text-align:center;font-size:20px;">品牌故事</p><br>
+  <p style="text-align:left;font-size:15px;">這是一個提供健康農產品的園地，誠如各位所看到的，除了雜草還是雜草，除了割草還是割草，所有的產品從小就套袋避免蟲害，當然蟲害是防不勝防，園主的堅持是蟲吃剩下的才是我們的
+我們不敢強調我們的農產品是有機的，畢竟周遭的農田還是會噴灑，但我們堅持我們的產品不施灑藥物及除草劑，讓所有產品以最自然的面貌呈現給顧客，讓顧客吃的安心健康是我們最大的堅持，而顧客給我們的正向回饋更帶給我們無窮的能量
+我們的果園不大佔地3分多，但是擁有多樣的農產品，有愛文芒果、紅龍果、酪梨、檸檬、木瓜、香蕉、芭蕉…等等數十種水果，除了前3種量較多外，其餘數量有限以自用為主
+期待天然健康的農產品能得到大家的喜愛，為彼此的健康盡一份心力。</p><br>
+  <img src="草生種植.jpg" alt="草生種植" width="500" height="333">
+  </div>  
+  <div class="item5">
+  <p style="text-align:center;font-size:15px;"> 聯絡我們</p>
+  <p style="text-align:center;font-size:15px;"> FaceBook:</p>
+  <div style="text-align:center;font-size:15px;"><a href="https://www.facebook.com/profile.php?id=100063807405001&mibextid=LQQJ4d">真政讚開心果園</a></div>
+  
+  </div>
+</div>
+<script>
+let mode = 'small'
+let sidebar = document.querySelector('#sidebar')
+function turn() {
+   if (mode == 'small')
+   {
+      mode = 'large'
+      sidebar.style.width = "90px"
+   } else {
+      mode = 'small'
+      sidebar.style.width = "65px"
+   }
+}
+
+</script>
+
+</body>
+</html>

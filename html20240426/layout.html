@@ -41,30 +41,25 @@ body {
   background-color: #ddd;
   color: black;
 }
-
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
 }
-
 /* Left and right column */
 .column.side {
   width: 25%;
 }
-
 /* Middle column */
 .column.middle {
   width: 50%;
 }
-
 /* Clear floats after the columns */
 .row::after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
@@ -88,21 +83,20 @@ body {
 
 <div class="row">
   <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <h2>翻臉比翻書快</h2>
+    <p>上一秒...</p>
     <image src="right.jpg" alt="my dog" width= "350">
-    <br>
+    <p>下一秒...</p>
     <image src="left.jpg" alt="dog" width= "350">
   </div>
   <div class="column middle">
-    <h2>Main Content</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+    <h2>男上加男</h2>
+    <p>兩隻</p>
     <image src="center.jpg" alt="two dog" width= "700" >
   </div>
-  
   <div class="column side">
-    <h2>Side</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+    <h2>膽&歐</h2>
+    <p>日常</p>
     <image src="S__13918219.jpg" alt="doog" width= "350">
     <br>
     <image src="S__13918221.jpg" alt="dooog" width= "350">

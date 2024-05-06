@@ -2,12 +2,13 @@
 <html>
 <head>
 <style>
-*{padding-left:50px;
-padding-right:50px;
+*{padding-left:10%;
+padding-right:10%;
 background-color:rgb(240, 240, 240)}
+
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   gap: 10px;
   background-color: rgb(155, 185, 205);
   padding: 15px;
@@ -18,6 +19,8 @@ background-color:rgb(240, 240, 240)}
   padding: 10px;
   font-size: 30px;
 }
+.item1{grid-row:1/3;
+       grid-column:1/3;}
 </style>
 </head>
 <body>
@@ -26,11 +29,12 @@ background-color:rgb(240, 240, 240)}
 <p>果乾系列>甘草芭樂乾</p>
 
 <div class="grid-container">
-  <div>
+  <div class="item1">
   <img src="d3.jpg" alt="甘草芭樂乾"  width="300">
   <p style=font-size:25px>甘草芭樂乾</p>
   </div>
   <div>2</div> 
+   <div>2</div> 
 </div>
 </body>
 </html>

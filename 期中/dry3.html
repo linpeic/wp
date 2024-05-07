@@ -4,7 +4,23 @@
 <style>
 *{padding-left:10%;
 padding-right:10%;
-background-color:rgb(240, 240, 240)}
+background-color:#f9f9f9}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(210, 210, 210);
+}
 
 .grid-container {
   display: grid;
@@ -42,22 +58,65 @@ background-color:rgb(240, 240, 240)}
   <img src="d3.jpg" alt="甘草芭樂乾"  width="180px">
   <div style="font-size:25px;"><b>甘草芭樂乾</b></div>
   </div>
-  <div class="item2">訂購資訊：
+  <div class="item2">
+  訂購資訊：<br>
+  <form action="/action_page.php">
+  <br>
+  <label for="quantity" style="text-align:left;  font-size:12px;" >訂購數量：/包</label><br>
+  <input type="number" id="quantity" name="quantity" min="1" max="20">
+  <br><br>
+  <input type="submit" value="送出" style="width:auto; text-align:center; font-size:10px;">
+  <br>
+  </form>
+  <br>
+  #交易付款方式：轉帳付款<br>
+  #運費計算：<br>
+  <table>
+  <tr>
+    <th>運送方式/運費</th>
+    <th>門檻</th>
+    <th>運費</th>
+  </tr>
+  <tr>
+    <td>賣貨便</td>
+    <td>未滿1100元</td>
+    <td>運費38元</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>滿1100元</td>
+    <td>免運</td>
+  </tr>
+  <tr>
+    <td>宅急便</td>
+    <td>未滿10包</td>
+    <td>運費100元</td>
+  </tr>
+   <tr>
+    <td></td>
+    <td>滿10包</td>
+    <td>免運費</td>
+  </tr>
+</table>
   </div> 
-  <div class="item3">甘草芭樂乾
-    自產自銷，草生種植，新鮮美味健康的甘草芭樂乾出爐了!<br>
-🥰甘草芭樂乾保留濃濃芭樂香味及紮實口感，讓人一口接一口<br>
-😉不添加糖及防腐劑，享受美味健康無負擔喔！<br>
+  <div class="item3">
+  <div style="font-size:20px; text-align: center;">
+  甘草芭樂乾
+  </div>
+  <br>
+甘草芭樂乾保留濃濃芭樂香味及紮實口感，讓人一口接一口，<b>自產自銷，草生種植</b>，新鮮美味健康，
+不添加糖及防腐劑，享受美味健康無負擔喔！<br>
 #產地來源：嘉義縣鹿草鄉<br>
-#產品售價：特價每包120元<br>
-#重量規格：甘草芭樂乾90g<br>
-#運費計算：宅急便運送10包以下，運費每次100元，10包以上免運<br>
-#訂購方式：lineID：q3620505<br>
-#交易付款方式：轉帳付款<br>
-#商品介紹：自產自銷，採預訂制，待採收後再行烘培，依訂購順序付款後新鮮出貨<br>
+#商品介紹：自產自銷，採預訂制，待採收後再行烘培，依訂購順序付款後新鮮出貨，水果乾(片)為季節限定，依當季水果生產而有不同變化，採用新鮮整顆水果切片，低溫長時間製作，因我們都是純手工製作，下單前請先確認是否有貨，如沒有可能要煩請等後幾天。<br>
+#原料：芭樂、甘草粉<br>
+#重量規格：90g<br>
+#產品售價：每包120元<br>
+#保存：冷藏3個月<br>
+*請避免陽光直射<br>
 【低溫烘培技術】<br>
-為了使果乾Q彈並鎖住果膠！每2小時就要翻面一次，非常耗工！<br>
-相對成本也非常高，如果不這麼做的話，烤出來的果乾就會乾乾扁扁的哦！<br>
+為了使果乾Q彈並鎖住果膠！每2小時就要翻面一次，非常耗工！相對成本也非常高，如果不這麼做的話，烤出來的果乾就會乾乾扁扁的哦！<br>
+【自然甜味甜而不膩】<br>
+果乾的甜味來自低溫烘培鎖住果膠，自然甜而不膩，相對加了砂糖調味的果乾來說，風味可是完全不同的哦！<br>
 </div> 
 </div>
 </body>

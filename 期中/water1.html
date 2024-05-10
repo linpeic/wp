@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{padding-left:12%;
+padding-right:12%;
+background-color:rgba(240, 240, 240,0.3)}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width:100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 5px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(210, 210, 210);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap:3px;
+  background-color: rgba(255, 209, 41, 0.8);
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.item1{grid-row:1/2;
+       grid-column:1/2;
+       text-align: center;
+       margin:0;
+      padding-top:20px;
+       }
+.item2{grid-row:2/3;
+       grid-column:1/5;
+       font-size:20px;
+       padding: 5px;}
+.item3{grid-row:1/2;
+       grid-column:2/5;
+       padding: 15px;}
+.quantity{width:100px;
+          padding-left:0px;}
+</style>
+</head>
+<body>
+<h1>芒芒遇見你</h1>
+<div style="text-align: left;">水果茶系列>芒芒遇見你</div>
+<br>
+<div class="grid-container">
+  <div class="item1">
+  <img src="w1.jpg" alt="芒芒遇見你"  style="width:250px; font-size:30px;">
+  <div  style="font-size:25px;"> 芒芒遇見你</div><br>
+  </div>
+  <div class="item2">
+  訂購資訊：<br>
+  <form action="/action_page.php">
+  <br>
+   <div class="quantity" for="quantity" style="font-size:15px;" >訂購數量(包)：
+  <input type="number" id="quantity" name="quantity" min="1" max="20">
+  </div>
+  <br>
+  <input type="submit" value="送出" style="width:auto; text-align:center; font-size:10px;">
+  <br>
+  </form>
+  <br>
+  #交易付款方式：轉帳付款<br>
+  #運費計算：<br>
+  <table>
+  <tr>
+    <th>運送方式/運費</th>
+    <th>門檻</th>
+    <th>運費</th>
+  </tr>
+  <tr>
+    <td>賣貨便</td>
+    <td>未滿1100元</td>
+    <td>運費38元</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>滿1100元</td>
+    <td>免運</td>
+  </tr>
+  <tr>
+    <td>宅急便</td>
+    <td>未滿10包</td>
+    <td>運費100元</td>
+  </tr>
+   <tr>
+    <td></td>
+    <td>滿10包</td>
+    <td>免運費</td>
+  </tr>
+</table>
+  </div> 
+  <div class="item3">
+  <div style="font-size:20px; text-align:center;">
+  芒芒遇見你
+  </div>
+  <br>
+#產地來源：嘉義縣鹿草鄉<br>
+#內容物：無加糖愛文芒果乾+蘋果乾+紅心土芭樂+檸檬片<br>
+#產品售價：每包100元<br>
+#重量規格：內含6小包，每小包（16g+-1g)<br>
+#甜度：全部果乾皆無額外添加糖 保留水果天然的風味<br>
+#保存：冷藏3個月<br>
+#食用辦法：一小包以300cc～400cc的溫熱水沖泡即可<br>
+*小提醒：本產品含有芒果 對芒果過敏者不適合食用<br>
+#商品介紹：自產自銷，採預訂制，待採收後再行烘培，依訂購順序付款後新鮮出貨<br>
+
+採用新鮮整顆水果切片，低溫長時間製作<br>
+
+水果乾(片)為季節限定，依當季水果生產而有不同變化<br>
+熱泡:將果乾放於熱水裡，浸泡等待3-5分鐘即可享用一杯健康美味的水果茶<br>
+
+*可隨喜好添加蜂蜜或冰糖風味更佳<br>
+*請避免陽光直射<br>
+因我們都是純手工製作，下單前請先確認是否有貨，如沒有可能要煩請等後幾天<br>
+
+【低溫烘培技術】<br>
+為了使果乾Q彈並鎖住果膠！每2小時就要翻面一次，非常耗工！相對成本也非常高，如果不這麼做的話，烤出來的果乾就會乾乾扁扁的哦！<br>
+</div> 
+</div>
+</body>
+</html>

@@ -47,12 +47,23 @@ tr:nth-child(even) {
        padding: 15px;}
 .quantity{width:100px;
           padding-left:0px;}
+  .topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
 </style>
 </head>
 <body>
 <div style="text-align: left; padding-left:0px;">
 <h1>原味芭蕉乾</h1>
-<a href="https://linpeic.github.io/wp/%E6%9C%9F%E4%B8%AD/main.html">首頁</a>
+ <div class="topnav ">
+  <a href="https://linpeic.github.io/wp/%E6%9C%9F%E4%B8%AD/main.html">
+  <b style="font-size:17px" "color:Black">首頁</a>
 >> 果乾系列 >> 原味芭蕉乾
 </div>
 <br>
@@ -63,13 +74,12 @@ tr:nth-child(even) {
   <p style="font-size:15px;">原味芭蕉乾採低溫慢烘，保留水果的原味無任何添加物<br>吃得到芭蕉原有香Q的鮮甜果香味道跟營養<br>與香蕉乾相比，口感比較Q彈。</p>
   </div>
   <div class="item2">
-  訂購資訊：<br>
-  <form action="/action_page.php">
-  <br>
-   <div class="quantity" for="quantity" style="font-size:15px;" >訂購數量(包)：
+ 訂購資訊：<br>
+  <label style="font-size:15px;">售價：每包120元 重量：100g</label>
+  <form action="/action_page.php"><br>
+  <div class="quantity" for="quantity" style="font-size:15px;" >訂購數量(包)：
   <input type="number" id="quantity" name="quantity" min="1" max="20">
   </div>
-  <br>
   <input type="submit" value="送出" style="width:auto; text-align:center; font-size:10px;">
   <br>
   </form>

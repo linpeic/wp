@@ -1,10 +1,8 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
 *{padding-left:12%;
-padding-right:12%;
-background-color:rgba(240, 240, 240,0.3)}
+padding-right:12%;}
 
 table {
   font-family: arial, sans-serif;
@@ -47,14 +45,24 @@ tr:nth-child(even) {
        padding: 15px;}
 .quantity{width:100px;
           padding-left:0px;}
+  .topnav {
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
 </style>
 </head>
 <body>
 <div style="text-align: left; padding-left:0px;">
 <h1>洛神花果醬</h1>
+   <div class="topnav ">
 <a href="https://linpeic.github.io/wp/%E6%9C%9F%E4%B8%AD/main.html">首頁</a>
 >>  水果茶系列  >>  洛神花果醬
-</div>
+</div></div>
 <br>
 <div class="grid-container">
   <div class="item1">
@@ -63,13 +71,12 @@ tr:nth-child(even) {
  <p style="font-size:14px;">酸酸甜甜的滋味，不管是用熱水沖泡亦或是作為果獎塗抹，皆有絕佳的風味<br>減糖配方，清爽少負擔<br></p>
   </div>
   <div class="item2">
-  訂購資訊：<br>
-  <form action="/action_page.php">
-  <br>
-   <div class="quantity" for="quantity" style="font-size:15px;" >訂購數量(包)：
+ 訂購資訊：<br>
+  <label style="font-size:15px;">售價：每瓶200元 容量：370ml（16g+-1g)</label>
+  <form action="/action_page.php"><br>
+  <div class="quantity" for="quantity" style="font-size:15px;" >訂購數量(瓶)：
   <input type="number" id="quantity" name="quantity" min="1" max="20">
   </div>
-  <br>
   <input type="submit" value="送出" style="width:auto; text-align:center; font-size:10px;">
   <br>
   </form>

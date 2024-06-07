@@ -1,30 +1,42 @@
-<!DOCTYPE html>
 <html>
+<style>
+*{padding-left:10%;
+padding-right:10%;}
+.submit{padding：50%;}
+.h2{padding：60%;
+    font-size:30;
+    padding-left:90px;
+    padding-bottom:20px;
+     padding-top:30px;}
+</style>
 <body>
-<body style="background-color:hsla(0, 0%, 84%, 0.4);">
-<h2>註冊/登入</h2>
+<body style="background-color:hsla(0, 0%, 84%, 0.4); ">
+<div class="h2"><b>註冊/登入</b>
+</div>
 <form action="/action_page.php">
-  <label for="fname">姓名：</label><br>
-  <input type="text" id="fname" name="fname">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  性別:
+  <label for="fname">姓名：
+  <input type="text" id="fname" name="fname"></label><br><br>
+  <label for="gender">性別:
  <input type="radio" id="male" name="gender" value="male">男性
- <input type="radio" id="female" name="gender" value="female">女性
-<br>
-  <label for="account">帳號：</label><br>
-  <input type="text" id="account" name="account">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <label for="password">密碼：</label>
-  <input type="password" id="pwd" name="pwd"><br>
+ <input type="radio" id="female" name="gender" value="female">女性</label>
+<br><br>
+  <label for="account">帳號：
+  <input type="text" id="account" name="account"></label><br><br>
+  <label for="password">密碼：
+  <input type="password" id="pwd" name="pwd"></label><br><br>
   
-  <label for="email">email:</label><br>
-  <input type="email" id="email" name="email">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <label for="phone">電話：</label>
-  <input type="tel" id="phone" name="phone" placeholder="09XX-123-456" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+  <label for="email">email：
+  <input type="email" id="email" name="email"></label><br><br>
+  <label for="phone">電話：
+  <input type="tel" id="phone" name="phone" placeholder="09XX-123-456" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required></label><br><br>
 
-  <label for="birthday">生日：</label>
-  <input type="date" id="birthday" name="birthday">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-  <p><label for="address">地址：</label></p>
-  <textarea id="address" name="address" rows="2" cols="75"></textarea><br><br>
+  <label for="birthday">生日：
+  <input type="date" id="birthday" name="birthday"></label><br><br>
+  <label for="address">地址：
+  <textarea id="address" name="address" rows="3" cols="20"></textarea></label><br><br>
+  <div class="submit">
   <input type="submit" value="送出">
+  </div>
 </form>
 </body>
 </html>

@@ -2,7 +2,7 @@
 <head>
 <style>
 *{  margin: 0;
-    padding: 0;}
+    padding:0;}
 .item1 { grid-area: header; }
 .item2 { grid-area: menu; }
 .item3 { grid-area: main; }
@@ -20,18 +20,19 @@
 .grid-container > div {
   background-color: rgb(240, 240, 240);
   text-align: center;
-  padding: 20px;
+  padding: 1px;
   font-size: 30px;
 }
 .sidebar{
-width: 110px;
+width: 100px;
 height: 100vh;
 background:Gainsboro ;
 transition: width 1.5s;
 padding:40px;
 }
+
 #sidebar{
-width: 120px;
+width: 10px;
 height: 100vh;
 background:Gainsboro ;
 transition: width 1.5s;
@@ -78,13 +79,13 @@ href="https://linpeic.github.io/wp/%E6%9C%9F%E4%B8%AD/%E6%B0%B4%E6%9E%9C%E8%8C%B
 </div> 
   <div class="item3">
   <p style="text-align:center;font-size:20px;">品牌故事</p><br>
-  <img src="故事.jpg" alt="故事" width="500" height="333">
-  <img src="草生種植.jpg" alt="草生種植" width="500" height="333">
+  <img src="故事.jpg" alt="故事" width="700" height="333">
+  <img src="草生種植.jpg" alt="草生種植" width="700" height="333">
   </div>  
   <div class="item5">
   <p style="text-align:center;font-size:15px;"> 聯絡我們</p>
   <p style="text-align:center;font-size:15px;"> FaceBook:</p>
-  <div style="text-align:center;font-size:15px;"><a href="https://www.facebook.com/profile.php?id=100063807405001&mibextid=LQQJ4d">真政讚開心果園</a></div>
+  <div class= topnav  style="text-align:center;font-size:15px;"><a href="https://www.facebook.com/profile.php?id=100063807405001&mibextid=LQQJ4d">真政讚開心果園</a></div>
   </div>
 </div>
 <script>
@@ -94,12 +95,12 @@ function turn() {
    if (mode == 'small')
    {
       mode = 'large'
-      sidebar.style.width = "160px"
+      sidebar.style.width = "140px"
    } 
    else 
    {
       mode = 'small'
-      sidebar.style.width = "0px"
+      sidebar.style.width = "30px"
    }
 }
 </script>

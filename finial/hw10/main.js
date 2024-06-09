@@ -1,6 +1,6 @@
 const main = document.querySelector('main')
 
-let key = "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"
+let key = "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"
 
 async function groqChat(q) {
     const jsonResponse = await fetch("https://api.groq.com/openai/v1/chat/completions", 

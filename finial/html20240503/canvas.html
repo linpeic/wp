@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Sea urchin </h1>
+<canvas id="myCanvas" width="220" height="150" style="border:1px solid #000000;">
+Sorry, your browser does not support canvas.
+</canvas>
+<script>
+// Create a canvas:
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+
+// Define a new path:
+ctx.beginPath();
+
+// Define a start point
+ctx.moveTo(100,20);
+
+// Define points
+ctx.lineTo(70,80);
+ctx.lineTo(95,70);
+ctx.lineTo(100,20);
+
+// Draw it
+ctx.stroke();
+ctx.fillStyle = "black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.moveTo(120,20);
+ctx.lineTo(150,80);
+ctx.lineTo(125,70);
+ctx.lineTo(120,20);
+ctx.stroke();
+ctx.fillStyle = "black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(110,89,40,0,2*Math.PI);
+ctx.stroke();
+ctx.fillStyle = "black";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(110,110,8,0,1*Math.PI);
+ctx.strokeStyle = "white";
+ctx.lineWidth = 2;
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(121,65);
+ctx.lineTo(110,75);
+ctx.moveTo(121,65);
+ctx.lineTo(135,75);
+ctx.lineWidth = 3;
+ctx.strokeStyle = "Beige";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.moveTo(100,65);
+ctx.lineTo(110,75);
+ctx.moveTo(100,65);
+ctx.lineTo(86,75);
+ctx.lineWidth = 3;
+ctx.strokeStyle = "Beige";
+ctx.stroke();
+
+ctx.beginPath();
+ctx.arc(139,99,12,0,2*Math.PI);
+ctx.stroke();
+ctx.fillStyle = "Beige";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(81,99,12,0,2*Math.PI);
+ctx.stroke();
+ctx.fillStyle = "Beige";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(97,80,1.5,0,2*Math.PI);
+ctx.stroke();
+ctx.fillStyle = "white";
+ctx.fill();
+
+ctx.beginPath();
+ctx.arc(120,80,1.5,0,2*Math.PI);
+ctx.stroke();
+ctx.fillStyle = "white";
+ctx.fill();
+</script>
+</body>
+</html>

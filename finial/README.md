@@ -1,6 +1,8 @@
 ## 期末作業
 學號:111210522
 姓名:林沛欣
+##
+沒有標註是原創
 
 ## 作業1：自我介紹網頁
 [原始碼](https://github.com/linpeic/wp/blob/master/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)
@@ -62,7 +64,6 @@
 [原始碼](https://github.com/linpeic/wp/blob/master/html20240426/layout.html)
 
 [網頁](https://linpeic.github.io/wp/html20240426/layout.html)
-
 ##
 參考範例、加入照片、放上音樂
 
@@ -81,6 +82,5 @@
 [原始碼](https://github.com/linpeic/wp/blob/master/html20240503/canvas.html)
 
 [網頁](https://linpeic.github.io/wp/html20240503/canvas.html)
-
 ##
 參考範例 作品可能是一隻狗

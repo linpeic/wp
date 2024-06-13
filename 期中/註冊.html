@@ -1,23 +1,28 @@
 <html>
 <style>
-*{padding-left:10%;
+*{padding-left:12%;
 padding-right:10%;}
 
 .h2{
     font-size:30;
     padding-left:90px;
     padding-bottom:20px;
-     padding-top:30px;}
+    padding-top:30px;}
 .topnav {
   overflow: hidden;
 }
 .topnav a {
   display: block;
   text-decoration: none;
-  color: rgb(36, 52, 28);
+  color: rgb(28, 96, 231);
+}
+body {
+  background-image: url('芒果園.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 </style>
-<body style="background-image: url('芒果園.jpg'); width: 100%;">
+<body>
 <div class="h2"><b>註冊</b>
 </div>
 <div style="text-align:left; padding:0px;">
@@ -27,7 +32,7 @@ padding-right:10%;}
 <form action="/action_page.php"  style="font-size: 20px;">
   <label for="fname">姓名：
   <input type="text" id="fname" name="fname"></label><br><br>
-  <label for="gender">性別:
+  <label for="gender">性別：
  <input type="radio" id="male" name="gender" value="male">男性
  <input type="radio" id="female" name="gender" value="female">女性</label>
 <br><br>
@@ -46,8 +51,7 @@ padding-right:10%;}
   <label for="address">地址：
   <textarea id="address" name="address" rows="3" cols="20"></textarea></label><br><br>
   <div><input type="submit" value="送出">
-  </div>
-  <div class="topnav" style="text-align:center;font-size:15px;"><a href="https://www.facebook.com/profile.php?id=100063807405001&mibextid=LQQJ4d">已有帳號!登入</a></div>
+  <div class="topnav" style="padding-left:260px;font-size:15px;"><a href="https://www.facebook.com/profile.php?id=100063807405001&mibextid=LQQJ4d">已有帳號!登入</a></div>
   </div>
 </form>
 </body>

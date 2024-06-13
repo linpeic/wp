@@ -1,16 +1,26 @@
 *{
-   padding-left: 5%;
-   padding-right: 10%;
-   padding-top: 10px;;
+   padding-left: 7%;
+   padding-right: 13%;
+   padding-top: 10px;
 }
-header, nav, footer, main {
+
+header{
     width: 95%;
     display: block;
-    margin:10px auto;
+    margin:9px auto;
+    background-color: #78b1c67d;
+    font-size: 30px;
+}
+nav, footer, main {
+    width: 95%;
+    display: block;
+    margin:9px auto;
+    background-color: #78b1c67d;
 }
 
 #menu {
     float:right;
+    
 }
 
 #template {
@@ -30,18 +40,21 @@ textarea {
     margin:10px auto;
     height: 10em;
     padding: 10px;
+    background-color: #f8f8f8;
 }
 
 div {
     display:block;
     width:100%;
     margin:10px auto;
-    height: 200px;
+    height: 340px;
     padding: 10px;
+    background-color: #d7f4ff83;
 }
 
 #question {
     height: 7em;
-    color: #42aed5;
+    color: #0a2e3b;
+    
 }
 

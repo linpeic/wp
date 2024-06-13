@@ -5,54 +5,58 @@
 沒有標註是原創
 
 ## 作業1：自我介紹網頁
-[原始碼](https://github.com/linpeic/wp/blob/master/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw1/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)
 
-[網頁](https://linpeic.github.io/wp/html/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)
+[網頁](https://linpeic.github.io/wp/finial/hw1/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)
  ##
  內容由ChatGPT產生，然後我修改了部分的興趣與愛好
 
 ## 作業2
-[網頁(沒有css)](https://linpeic.github.io/wp/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2.html)
+[網頁(沒有css)：](https://linpeic.github.io/wp/finial/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2.html)
 
-[原始碼(沒有css)](https://github.com/linpeic/wp/blob/master/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2.html)
+[原始碼(沒有css):](https://github.com/linpeic/wp/blob/master/finial/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2.html)
 
-[網頁(有css)](https://linpeic.github.io/wp/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2css.html)
+[網頁(有css)：](https://linpeic.github.io/wp/finial/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2css.html)
 
-[原始碼(有css)](https://github.com/linpeic/wp/blob/master/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2css.html)
+[原始碼(有css)：](https://github.com/linpeic/wp/blob/master/finial/html/%E8%A8%BB%E5%86%8A%E7%95%AB%E9%9D%A2css.html)
 
 ## 作業3：JavaScript 基本練習 
-[程式碼](https://github.com/linpeic/wp/tree/master/js)
+[程式碼](https://github.com/linpeic/wp/tree/master/finial/hw3)
 
 ## 作業4：JavaScript 練習 2
-[原始碼](https://github.com/linpeic/wp/tree/master/js20240322)
+[原始碼](https://github.com/linpeic/wp/tree/master/finial/hw4)
 ##
 第5題用ChatGpt 協助debug
 第8題 參考解答
 
 ## 作業5：DOM 的 JavaScript 操控練習 
-1.[原始碼](https://github.com/linpeic/wp/blob/master/html20240329/1.html)
-[網頁](https://linpeic.github.io/wp/html20240329/1.html)
+1.
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw5/1.html)
+[網頁](https://linpeic.github.io/wp/finial/hw5/1.html)
 
-2.[原始碼](https://github.com/linpeic/wp/blob/master/html20240329/2.html)
-[網頁](https://linpeic.github.io/wp/html20240329/2.html)
+2.
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw5/2.html)
+[網頁](https://linpeic.github.io/wp/finial/hw5/2.html)
 
-3.[原始碼](https://github.com/linpeic/wp/blob/master/html20240329/3.html)
-[網頁](https://linpeic.github.io/wp/html20240329/3.html)
+3.
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw5/3.html)
+[網頁](https://linpeic.github.io/wp/finial/hw5/3.html)
+
 ## 
 第三題用ChatGpt 協助Debug
 
 ## 作業6：側欄 -- CSS Transition 與 JavaScript
 1.css
 
-[原始碼](https://github.com/linpeic/wp/blob/master/hw602040412/transition.html)
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw6/transition.html)
 
-[網頁](https://linpeic.github.io/wp/hw602040412/transition.html)
+[網頁](https://linpeic.github.io/wp/finial/hw6/transition.html)
 
 2.js
 
-[原始碼](https://github.com/linpeic/wp/blob/master/hw602040412/transitionjs.html)
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw6/transitionjs.html)
 
-[網頁](https://linpeic.github.io/wp/hw602040412/transitionjs.html)
+[網頁](https://linpeic.github.io/wp/finial/hw6/transitionjs.html)
 ##
 參考上課範例
 

@@ -1,7 +1,8 @@
 ## 作業8：Layout 佈局 
 
-[原始碼](https://github.com/linpeic/wp/blob/master/html20240426/layout.html)
-[網頁](https://linpeic.github.io/wp/html20240426/layout.html)
+[原始碼](https://github.com/linpeic/wp/blob/master/finial/hw8/layout.html)
+
+[網頁](https://linpeic.github.io/wp/finial/hw8/layout.html)
 
 ##
 參考範例、加入照片、放上音樂

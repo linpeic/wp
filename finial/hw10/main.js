@@ -6,7 +6,6 @@ async function groqChat(qu) {
     if (!qu.trim()) { 
         return "請輸入問題 感謝您! 可以嘗試輸入: 心情不好 or 如何與女友開話題 or 世界上最可愛的狗在哪?";
     }
-    
     try{
         if(qu.trim()=="心情不好"){
             return "別擔心 沒有什麼事是一支冰無法解決的! 不行的話就兩支~";

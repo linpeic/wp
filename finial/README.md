@@ -2,7 +2,7 @@
 學號:111210522
 姓名:林沛欣
 ##
-沒有標註是原創
+沒有標註就是原創
 
 ## 作業1：自我介紹網頁
 [原始碼](https://github.com/linpeic/wp/blob/master/finial/hw1/%E8%87%AA%E6%88%91%E4%BB%8B%E7%B4%B9.html)

@@ -1,0 +1,49 @@
+body {
+  padding: 80px;
+  font: 16px Helvetica, Arial; /*字體*/
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+#posts {
+  margin: 0;
+  padding: 0;
+}
+
+#posts li {
+  margin: 40px 0;/*上下距離40px 左右0px*/
+  padding: 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  list-style: none;/*讓前面沒有特殊符號*/
+}
+
+#posts li:last-child {
+  border-bottom: none;/*無底框*/
+}
+
+textarea {
+  width: 500px;
+  height: 300px;
+}
+
+input[type=text],
+textarea /*input、textarea有相同的樣式形式*/
+{
+  border: 1px solid #eee;
+  border-top-color: #ddd;
+  border-left-color: #ddd;
+  border-radius: 2px;
+  padding: 15px;
+  font-size: .8em;/*文字大小為0.8*/
+}
+
+input[type=text] {
+  width: 500px;
+}
